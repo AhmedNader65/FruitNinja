@@ -1,0 +1,4 @@
+#Sat Aug 19 17:56:54 EEST 2023
+base.0=/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

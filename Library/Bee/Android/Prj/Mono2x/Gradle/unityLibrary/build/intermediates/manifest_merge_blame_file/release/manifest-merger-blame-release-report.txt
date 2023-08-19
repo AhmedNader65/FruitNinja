@@ -1,0 +1,126 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="34" />
+10-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:3-52
+12-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:19:17-49
+13    <uses-feature
+13-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:3-91
+14        android:name="android.hardware.vulkan.version"
+14-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:17-63
+15        android:required="false" />
+15-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:20:64-88
+16    <uses-feature
+16-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:3-88
+17        android:name="android.hardware.touchscreen"
+17-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:17-60
+18        android:required="false" />
+18-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:21:61-85
+19    <uses-feature
+19-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:3-99
+20        android:name="android.hardware.touchscreen.multitouch"
+20-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:17-71
+21        android:required="false" />
+21-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:22:72-96
+22    <uses-feature
+22-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:3-108
+23        android:name="android.hardware.touchscreen.multitouch.distinct"
+23-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:17-80
+24        android:required="false" />
+24-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:23:81-105
+25
+26    <application android:extractNativeLibs="true" >
+26-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:3-18:17
+26-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:3:16-48
+27        <activity
+27-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:5-11:16
+28            android:name="com.unity3d.player.UnityPlayerActivity"
+28-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:15-68
+29            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+29-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:180-361
+30            android:exported="true"
+30-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:433-456
+31            android:hardwareAccelerated="false"
+31-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:397-432
+32            android:launchMode="singleTask"
+32-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:148-179
+33            android:resizeableActivity="false"
+33-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:362-396
+34            android:screenOrientation="fullUser"
+34-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:111-147
+35            android:theme="@style/UnityThemeSelector" >
+35-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:4:69-110
+36            <intent-filter>
+36-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:5:7-8:23
+37                <action android:name="android.intent.action.MAIN" />
+37-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:9-61
+37-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:6:17-58
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:9-69
+39-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:7:19-66
+40            </intent-filter>
+41
+42            <meta-data
+42-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:7-82
+43                android:name="unityplayer.UnityActivity"
+43-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:18-58
+44                android:value="true" />
+44-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:9:59-79
+45            <meta-data
+45-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:7-78
+46                android:name="android.notch_support"
+46-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:18-54
+47                android:value="true" />
+47-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:10:55-75
+48        </activity>
+49
+50        <meta-data
+50-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:5-69
+51            android:name="unity.splash-mode"
+51-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:16-48
+52            android:value="0" />
+52-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:12:49-66
+53        <meta-data
+53-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:5-74
+54            android:name="unity.splash-enable"
+54-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:16-50
+55            android:value="True" />
+55-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:13:51-71
+56        <meta-data
+56-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:5-78
+57            android:name="unity.launch-fullscreen"
+57-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:16-54
+58            android:value="True" />
+58-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:14:55-75
+59        <meta-data
+59-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:5-84
+60            android:name="unity.allow-resizable-window"
+60-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:16-59
+61            android:value="False" />
+61-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:15:60-81
+62        <meta-data
+62-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:5-81
+63            android:name="notch.config"
+63-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:16-43
+64            android:value="portrait|landscape" />
+64-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:16:44-78
+65        <meta-data
+65-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:5-84
+66            android:name="unity.auto-report-fully-drawn"
+66-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:16-60
+67            android:value="true" />
+67-->/Users/macbookpro/Unity/New Unity Project/Library/Bee/Android/Prj/Mono2x/Gradle/unityLibrary/src/main/AndroidManifest.xml:17:61-81
+68    </application>
+69
+70</manifest>
